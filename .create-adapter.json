@@ -22,7 +22,7 @@
 	"connectionIndicator": "no",
 	"adapterSettings": [
 		{
-			"key": "API key",
+			"key": "API_key",
 			"inputType": "text",
 			"defaultValue": ""
 		}

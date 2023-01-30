@@ -30,7 +30,7 @@
 			"zh-cn": "Clockify"
 		},
 		"desc": {
-			"en": "Clockify integration for timetracking",
+			"en": "Clockify integration for time tracking",
 			"de": "Clockify integration for timetracking",
 			"ru": "Clockify integration for timetracking",
 			"pt": "Clockify integration for timetracking",
@@ -74,8 +74,10 @@
 			}
 		]
 	},
+	"encryptedNative": ["API_key"],
+	"protectedNative": ["API_key"],
 	"native": {
-		"API key": ""
+		"API_key": ""
 	},
 	"objects": [],
 	"instanceObjects": []
