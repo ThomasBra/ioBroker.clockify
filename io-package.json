@@ -1,0 +1,82 @@
+{
+	"common": {
+		"name": "clockify",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Clockify",
+		"titleLang": {
+			"en": "Clockify",
+			"de": "Clockify",
+			"ru": "Clockify",
+			"pt": "Clockify",
+			"nl": "Clockify",
+			"fr": "Clockify",
+			"it": "Clockify",
+			"es": "Clockify",
+			"pl": "Clockify",
+			"zh-cn": "Clockify"
+		},
+		"desc": {
+			"en": "Clockify integration for timetracking",
+			"de": "Clockify integration for timetracking",
+			"ru": "Clockify integration for timetracking",
+			"pt": "Clockify integration for timetracking",
+			"nl": "Clockify integration for timetracking",
+			"fr": "Clockify integration for timetracking",
+			"it": "Clockify integration for timetracking",
+			"es": "Clockify integration for timetracking",
+			"pl": "Clockify integration for timetracking",
+			"zh-cn": "Clockify integration for timetracking"
+		},
+		"authors": [
+			"Thomas Braune <t.braune@gmail.com>"
+		],
+		"keywords": [
+			"Tracking Work Timer Calendar Tracker Productivity"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "build/main.js",
+		"icon": "clockify.svg",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/ThomasBra/ioBroker.clockify/main/admin/clockify.svg",
+		"readme": "https://github.com/ThomasBra/ioBroker.clockify/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "subscribe",
+		"type": "date-and-time",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.1.13"
+			}
+		]
+	},
+	"native": {
+		"API key": ""
+	},
+	"objects": [],
+	"instanceObjects": []
+}
